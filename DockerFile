@@ -1,0 +1,3 @@
+#Docker File, Docker Image, Docker Container
+FROM python:3.12
+ADD 
