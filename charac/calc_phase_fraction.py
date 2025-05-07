@@ -2,7 +2,7 @@ import tifffile
 import numpy as np
 
 # Load the image
-img1 = tifffile.imread('C:/Users/meize/OneDrive - De Montfort University/Desktop/SEG_DATA_UNCAL/seg_uncal_nmc_drag.tiff')
+img1 = tifffile.imread("C:/Users/meize/Videos/XCT_DATA/cropped/Classified image_2.tiff")
 
 def volume_fraction(tiff_img):
     print("Unique labels in image:", np.unique(tiff_img))
