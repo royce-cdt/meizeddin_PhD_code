@@ -11,7 +11,7 @@ def calc_tortuosity(img_path, data_name, flux_drection = 'y'):
 # load image
     img_raw = tifffile.imread(img_path)
     results = []
-    print("Flux direction analysis:", flux_direction(img_raw))
+    #print("Flux direction analysis:", flux_direction(img_raw))
     # ensure 1s for conductive phase and 0s otherwise.
     permutations = {
         'y': lambda x: x,
@@ -46,8 +46,8 @@ def invert_conductive_phase(img_path):
     tifffile.imwrite(output_path, inverted.astype(np.uint8))
     print(f"Saved inverted image to: {output_path}")
     
-#invert_conductive_phase("G:/Other computers/My laptop/Documents/SEG_DATA_UNCAL/Tiff/AI_2_3refslice (Converted).tiff")
-#invert_conductive_phase("C:/Users/meize/Videos/XCT_DATA/New_dataset/nmc-2-uncal-blackisporepluscbd.tif")
+#invert_conductive_phase("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/Labelled/nmc-2-uncal-blackisporepluscbd.tif")
+#invert_conductive_phase("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/segmented/nmc-2-uncal-cropped-Gauss-Seg(Converted).tiff")
 
-calc_tortuosity("G:/Other computers/My laptop/Documents/SEG_DATA_UNCAL/Tiff/AI_2_3refslice (Converted)_inverted.tiff", "Ucal AI Drag", "all")
-#calc_tortuosity("G:/Other computers/My laptop/Documents/SEG_DATA_UNCAL/Tiff/AI_2_3refslices_7spaces (Converted)_inverted.tiff", "Uncal AI Drag", "all")
+calc_tortuosity("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/Labelled/nmc-2-cal-blackisporepluscbd_inverted.tif", "cal NREL")
+calc_tortuosity("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/Labelled/nmc-2-uncal-blackisporepluscbd_inverted.tif", "Uncal NREL")
