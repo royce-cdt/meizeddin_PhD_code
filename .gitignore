@@ -27,6 +27,7 @@ share/python-wheels/
 MANIFEST
 plots/
 data/
+*.pt
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -174,3 +175,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+.pt
