@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 
-def calc_tortuosity(img_path, data_name, flux_drection = 'y'):
+def calc_tortuosity(img_path, data_name, flux_drection = 'all'):
 # load image
     img_raw = tifffile.imread(img_path)
     results = []
@@ -46,8 +46,9 @@ def invert_conductive_phase(img_path):
     tifffile.imwrite(output_path, inverted.astype(np.uint8))
     print(f"Saved inverted image to: {output_path}")
     
-#invert_conductive_phase("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/Labelled/nmc-2-uncal-blackisporepluscbd.tif")
+invert_conductive_phase(r"C:\PhD_programs\Confirmation_Review_data\NREL_Data\Sample_1\Dragonfly_AI\Segmentation BasicCastingPorosity_v-1.0 (as Image).tiff")
 #invert_conductive_phase("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/segmented/nmc-2-uncal-cropped-Gauss-Seg(Converted).tiff")
 
-calc_tortuosity("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/Labelled/nmc-2-cal-blackisporepluscbd_inverted.tif", "cal NREL")
-calc_tortuosity("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/Labelled/nmc-2-uncal-blackisporepluscbd_inverted.tif", "Uncal NREL")
+
+#calc_tortuosity(r"C:\PhD_programs\Confirmation_Review_data\NREL_Data\Sample_1\nmc-1-cal-expectedporsoity.tif", "Segmented_FIB")
+#calc_tortuosity("C:/Users/MTP24ME/Pictures/Cal_and_uncal_2_NREL/Labelled/nmc-2-uncal-blackisporepluscbd_inverted.tif", "Uncal NREL")
