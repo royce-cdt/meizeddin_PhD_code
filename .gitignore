@@ -9,6 +9,7 @@ __pycache__/
 # Tiff files
 *.tif
 *.tiff
+*.png
 
 # Distribution / packaging
 .Python

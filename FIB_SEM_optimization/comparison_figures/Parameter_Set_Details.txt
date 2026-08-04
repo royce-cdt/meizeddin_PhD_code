@@ -1,0 +1,7 @@
+Parameter Set 1:
+
+5K Voltage and Variant Current
+
+Parameter Set 2:
+
+Variant Voltage (5, 4, 3, 2, 1) with 2 currents (0.1nA, 0.0031nA) for each voltage

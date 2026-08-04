@@ -1,0 +1,92 @@
+﻿image_id,parameter_set,voltage_kV,current_nA,detector,signal_out,mode,magnification,notes,WD_mm,scan_speed_us,suction_V
+1,1,5,0.1,TLD,SE,Immersion,125000x,NA,3,30,70
+2,1,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,70
+3,1,5,0.013,TLD,SE,Immersion,125000x,NA,3,30,70
+4,1,5,0.0031,TLD,SE,Immersion,125000x,NA,3,30,70
+5,1,5,0.0031,TLD,SE,Immersion,125000x,New area to account for beam history effect,3,30,70
+6,1,5,0.1,TLD,SE,Immersion,125000x,same are as sample 5,3,30,70
+7,1,5,0.05,TLD,SE,Immersion,125000x,same are as sample 5,3,30,70
+8,1,5,0.013,TLD,SE,Immersion,125000x,same are as sample 5,3,30,70
+9,1,5,0.0031,TLD,SE,Immersion,125000x,same are as sample 5,3,30,70
+10,1,5,0.0031,TLD,SE,Immersion,125000x,"same are as sample 5  and same scan as 9, adjusted brightness",3,30,70
+11,2,5,0.1,TLD,SE,Immersion,125000x,NA,3,30,70
+12,2,5,0.0031,TLD,SE,Immersion,125000x,NA,3,30,70
+13,2,4,0.0031,TLD,SE,Immersion,125000x,NA,3,30,70
+14,2,4,0.1,TLD,SE,Immersion,125000x,NA,3,30,70
+15,2,3,0.1,TLD,SE,Immersion,125000x,NA,3,30,70
+16,2,3,0.0031,TLD,SE,Immersion,125000x,NA,3,30,70
+17,2,2,0.0031,TLD,SE,Immersion,125000x,There are two instances of this one is a little blurry,3,30,70
+18,2,2,0.1,TLD,SE,Immersion,125000x,NA,3,30,70
+19,2,1,0.1,TLD,SE,Immersion,125000x,NA,3,30,70
+20,2,1,0.0031,TLD,SE,Immersion,125000x,NA,3,30,70
+21,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,70
+22,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,10
+23,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,20
+24,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,30
+25,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,40
+26,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,50
+27,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,60
+28,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,70
+29,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,80
+30,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,90
+31,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,100
+32,3,5,0.05,TLD,SE,Immersion,125000x,NA,3,30,240
+33,4,5,0.8,CBS,SE,Field-Free,50000x,NA,4,30,NA
+34,4,5,0.8,CBS,SE,Field-Free,100000x,NA,4,30,NA
+35,4,10,0.8,CBS,SE,Field-Free,100000x,NA,4,30,NA
+36,4,10,0.8,CBS,SE,Field-Free,50000x,NA,4,30,NA
+37,4,15,0.8,CBS,SE,Field-Free,100000x,NA,4,30,NA
+38,4,15,0.8,CBS,SE,Field-Free,50000x,NA,4,30,NA
+39,4,20,0.8,CBS,SE,Field-Free,100000x,NA,4,30,NA
+40,4,20,0.8,CBS,SE,Field-Free,50000x,NA,4,30,NA
+41,5,30,0.024,ICE,SE,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+42,5,30,0.0077,ICE,SE,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+43,5,30,0.0011,ICE,SE,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+44,5,30,0.04,ICE,SE,NA,50000x,Two instances one with a new location to account for sample burn,4 (with 52 titl shows 13),30,NA
+45,6,30,0.04,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+46,6,30,0.0011,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+47,6,30,0.0077,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+48,6,30,0.024,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+49,6,15,0.022,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+50,6,15,0.00096,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+51,6,15,0.0038,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+52,6,15,0.011,ICE,SI,NA,50000x,NA,4 (with 52 titl shows 13),30,NA
+53,7,30,0.024,ICE,SI,NA,100000x,faster photo scan 10 us,4 (with 52 titl shows 13),10,NA
+54,7,30,0.0077,ICE,SI,NA,100000x,faster photo scan 10 us,4 (with 52 titl shows 13),10,NA
+55,7,30,0.0077,ICE,SI,NA,70000x,faster photo scan 10 us,4 (with 52 titl shows 13),10,NA
+56,7,30,0.0077,ICE,SI,NA,70000x,faster photo scan 10 us,4 (with 52 titl shows 13),10,NA
+57,7,30,0.0077,ICE,SI,NA,70000x,back to normal slow scan 30 us,4 (with 52 titl shows 13),30,NA
+58,7,30,0.0077,ICE,SI,NA,70000x,NA,4 (with 52 titl shows 13),30,NA
+59,7,30,0.0077,ICE,SI,NA,70000x,NA,4 (with 52 titl shows 13),30,NA
+60,7,30,0.0077,ICE,SI,NA,70000x,NA,4 (with 52 titl shows 13),30,NA
+61,7,30,0.0077,ICE,SI,NA,70000x,NA,4 (with 52 titl shows 13),30,NA
+62,7,30,0.0077,ICE,SI,NA,70000x,NA,4 (with 52 titl shows 13),30,NA
+63,8,5,0.8,ETD,SE,Field-Free,50000x,NA,4,30,NA
+64,8,5,1.6,ETD,SE,Field-Free,50000x,"same area as previous, huge drift, due to high current",4,30,NA
+65,8,5,0.8,ETD,SE,Field-Free,50000x,Different area,4,30,NA
+66,8,5,0.4,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+67,8,5,0.2,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+68,8,5,3.2,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+69,8,5,0.8,ETD,SE,Field-Free,50000x,"same as previous, going down in current",4,30,NA
+70,8,10,0.8,ETD,SE,Field-Free,50000x,NA,4,30,NA
+71,8,15,0.8,ETD,SE,Field-Free,50000x,"Same are as previous, high voltage also causes drift",4,30,NA
+72,8,20,0.8,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+73,8,30,0.8,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+74,8,30,1.6,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+75,8,30,1.6,ETD,SE,Field-Free,50000x,same settings different area moving from beam history,4,30,NA
+76,8,30,3.2,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+77,8,30,0.4,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+78,8,10,1.6,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+79,8,10,1.6,ETD,SE,Field-Free,50000x,Different area,4,30,NA
+80,8,10,0.4,ETD,SE,Field-Free,50000x,Different area,4,30,NA
+81,8,15,0.4,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+82,8,15,1.6,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+83,8,20,1.6,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+84,8,20,0.8,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+85,8,20,0.4,ETD,SE,Field-Free,50000x,same area as previous,4,30,NA
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
