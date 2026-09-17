@@ -14,7 +14,8 @@ IMAGE_DIR = (
     / "FIB_SEM_optimization"
     / "images"
     / "cropped"
-    / "Tested_for_segmentation"
+    / "Param_7"
+    / "Param_7_grayscale"
 )
 
 MASK_DIR = (
@@ -22,12 +23,14 @@ MASK_DIR = (
     / "FIB_SEM_optimization"
     / "images"
     / "segmented_masks"
+    / "Param_7"
 )
 
 RESULT_DIR = (
     BASE_DIR
     / "FIB_SEM_optimization"
     / "results"
+    / "Param_7"
 )
 
 
@@ -154,7 +157,7 @@ seg_results = pd.DataFrame(results)
 # Save CSV
 output_file = (
     RESULT_DIR
-    / "segmentation_quality.csv"
+    / "segmentation_quality_param_7.csv"
 )
 
 seg_results.to_csv(
